@@ -14,7 +14,7 @@ const UUID = validate(process.env.UUID ?? '')
 
 const WSPATH = process.env.WSPATH ?? ''
 
-console.log(' Server start with:' + PORT + ' ' + UUID + ' ' + WSPATH)
+console.log(' Server start with PORT:' + PORT + ' ' + UUID + ' ' + WSPATH)
 
 let idHelper = 1
 
